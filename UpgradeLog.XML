@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="AppPlatform">
+</Property><Property Name="解决方案文件" Value="D:\Works\AppPlatform\AppPlatform.sln">
+</Property><Property Name="Date" Value="2016年4月7日">
+</Property><Property Name="Time" Value="22:51:34">
+</Property></Properties><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\ICSharpCode.SharpZLib.csproj" Description="项目文件已成功备份为 D:\Works\AppPlatform\Backup\ICSharpCode.SharpZLib.csproj">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Main.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Main.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\AssemblyInfo.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Checksums\IChecksum.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Checksums\IChecksum.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Checksums\Adler32.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Checksums\Adler32.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Checksums\Crc32.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Checksums\Crc32.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipEntry.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipEntry.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipInputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipInputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipOutputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipOutputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipConstants.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipConstants.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipFile.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipFile.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\GZip\GZipOutputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\GZip\GZipOutputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\GZip\GZipInputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\GZip\GZipInputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\GZip\GZipConstants.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\GZip\GZipConstants.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipException.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipException.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\BZip2\BZip2InputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\BZip2\BZip2InputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\BZip2\BZip2OutputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\BZip2\BZip2OutputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\BZip2\BZip2Constants.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\BZip2\BZip2Constants.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\BZip2\BZip2.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\BZip2\BZip2.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Checksums\StrangeCrc.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Checksums\StrangeCrc.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\TarEntry.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\TarEntry.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\TarHeader.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\TarHeader.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\TarBuffer.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\TarBuffer.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\TarOutputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\TarOutputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\InvalidHeaderException.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\InvalidHeaderException.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\TarInputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\TarInputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\TarArchive.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\TarArchive.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\PendingBuffer.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\PendingBuffer.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\InflaterDynHeader.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\InflaterDynHeader.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\InflaterHuffmanTree.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\DeflaterPending.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\DeflaterPending.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\DeflaterHuffman.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\DeflaterHuffman.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\DeflaterEngine.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\DeflaterEngine.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\Inflater.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\Inflater.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\DeflaterConstants.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\DeflaterConstants.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\Deflater.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\Deflater.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\Streams\DeflaterOutputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\Streams\InflaterInputStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\Streams\StreamManipulator.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\Compression\Streams\OutputWindow.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\Compression\Streams\OutputWindow.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\SharpZipBaseException.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\SharpZipBaseException.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Tar\TarException.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Tar\TarException.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\GZip\GZipException.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\GZip\GZipException.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\BZip2\BZip2Exception.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\BZip2\BZip2Exception.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Core\NameFilter.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Core\NameFilter.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\FastZip.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\FastZip.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Core\FileSystemScanner.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Core\FileSystemScanner.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Core\PathFilter.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Core\PathFilter.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Core\INameTransform.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Core\INameTransform.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipNameTransform.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipNameTransform.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Encryption\PkzipClassic.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Encryption\PkzipClassic.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Core\IScanFilter.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Core\IScanFilter.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipHelperStream.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipHelperStream.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipExtraData.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipExtraData.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Core\StreamUtils.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Core\StreamUtils.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\ZipEntryFactory.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\ZipEntryFactory.cs">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\Zip\IEntryFactory.cs" Description="文件已成功备份为 D:\Works\AppPlatform\Backup\Zip\IEntryFactory.cs">
+</Event><Event ErrorLevel="1" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\ICSharpCode.SharpZLib.csproj" Description="您的项目以 .NET Framework 2.0 或 3.0 为目标。如果您的项目使用的程序集需要更新的 .NET Framework，则项目生成将失败。通过单击项目菜单上的“属性”，然后在“.NET Framework”下拉框中选择一个新版本，可以更改 .NET Framework 的版本。(在 Visual Basic 中，可在单击“高级编辑器选项...”按钮时显示的“编译”选项卡上找到此下拉框。)">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\ICSharpCode.SharpZLib.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\ICSharpCode.SharpZLib.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ICSharpCode.SharpZLib" Source="SharpZipLib\ICSharpCode.SharpZLib.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>

@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{14E8FCD0-8055-4910-B21C-F0742442E244}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Platform</RootNamespace>
+    <AssemblyName>Platform</AssemblyName>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>unicloud-key.pfx</AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Library\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Platform2005.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisLogFile>bin\Platform2005.dll.CodeAnalysisLog.xml</CodeAnalysisLogFile>
+    <CodeAnalysisUseTypeNameInSuppression>true</CodeAnalysisUseTypeNameInSuppression>
+    <CodeAnalysisModuleSuppressionsFile>GlobalSuppressions.cs</CodeAnalysisModuleSuppressionsFile>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSetDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\\Rule Sets</CodeAnalysisRuleSetDirectories>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisRuleDirectories>;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Team Tools\Static Analysis Tools\FxCop\\Rules</CodeAnalysisRuleDirectories>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CommandLine, Version=1.9.71.2, Culture=neutral, PublicKeyToken=de6f01bd326f8c32, processorArchitecture=MSIL">
+      <HintPath>..\packages\CommandLineParser.1.9.71\lib\net35\CommandLine.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Data.SQLite, Version=1.0.99.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Core.1.0.99.0\lib\net20\System.Data.SQLite.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AutoDispose\AutoDisposeManager.cs" />
+    <Compile Include="AutoDispose\IAutoDispose.cs" />
+    <Compile Include="BinderItem.cs" />
+    <Compile Include="Caching\BufferStorage.cs" />
+    <Compile Include="Caching\BufferStorageAfterFinalReleaseEventHandler.cs" />
+    <Compile Include="Caching\BufferStorageBeforeFinalReleaseEventHandler.cs" />
+    <Compile Include="Caching\BufferStorageCreateItemEventHandler.cs" />
+    <Compile Include="Caching\CacheHelper.cs" />
+    <Compile Include="Caching\IBufferItem.cs" />
+    <Compile Include="Caching\ICacheAdapter.cs" />
+    <Compile Include="Caching\ICacheProvider.cs" />
+    <Compile Include="Caching\MultiBufferStorage.cs" />
+    <Compile Include="Complier.cs" />
+    <Compile Include="Compress\GZipUtility.cs" />
+    <Compile Include="Compress\ZipEventHandler.cs" />
+    <Compile Include="Compress\ZipReference.cs" />
+    <Compile Include="Configuration\AssemblyConfigResourceAttribute.cs" />
+    <Compile Include="Configuration\AssemblyConfigTypeAttribute.cs" />
+    <Compile Include="Configuration\ConfigCollectionItemAttribute.cs" />
+    <Compile Include="Configuration\ConfigConvertCollectionHandler.cs" />
+    <Compile Include="Configuration\ConfigConverters.cs" />
+    <Compile Include="Configuration\ConfigConvertHandler.cs" />
+    <Compile Include="Configuration\ConfigHelper.cs" />
+    <Compile Include="Configuration\ConfigItemAttribute.cs" />
+    <Compile Include="Configuration\ConfigManager.cs" />
+    <Compile Include="Configuration\ConfigurationControlBase.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\ConfigurationSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Configuration\ConfigurationSettingClassAttribute.cs" />
+    <Compile Include="Configuration\ConfigurationSettingFieldAttribute.cs" />
+    <Compile Include="Configuration\ConfigValueItem.cs" />
+    <Compile Include="Configuration\ConverterMethodAttribute.cs" />
+    <Compile Include="Configuration\PlatformConfigurationSectionHandler.cs" />
+    <Compile Include="Configuration\Utils\ConfigEditor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Configuration\Utils\ConfigItem.cs" />
+    <Compile Include="Configuration\Utils\CustomProperties.cs" />
+    <Compile Include="Configuration\Utils\CustomPropertyDescriptor.cs" />
+    <Compile Include="CSS\Client\LoginHelper.cs" />
+    <Compile Include="CSS\Client\MacErrorReloginHandler.cs" />
+    <Compile Include="CSS\Communication\Channels\ChannelAttribute.cs" />
+    <Compile Include="CSS\Communication\Channels\IClientChannel.cs" />
+    <Compile Include="CSS\Communication\Channels\IServerChannel.cs" />
+    <Compile Include="CSS\Communication\Channels\Socket\SocketTcpClientChannel.cs" />
+    <Compile Include="CSS\Communication\Channels\Socket\SocketTcpClientHelper.cs" />
+    <Compile Include="CSS\Communication\Channels\Socket\SocketTcpHelper.cs" />
+    <Compile Include="CSS\Communication\Channels\Socket\SocketTcpServerChannel.cs" />
+    <Compile Include="CSS\Communication\Channels\Socket\SocketTcpServerHelper.cs" />
+    <Compile Include="CSS\Communication\Channels\Socket\SocketUdpBroadcastClientChannel.cs" />
+    <Compile Include="CSS\Communication\Channels\Socket\SocketUdpBroadcastServerChannel.cs" />
+    <Compile Include="CSS\Communication\ClientCommunication.cs" />
+    <Compile Include="CSS\Communication\ClientCommunicationServerEventSink.cs" />
+    <Compile Include="CSS\Communication\ClientCommunicationTimesOutPromptDlg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CSS\Communication\CommunicationChannelSetting.cs" />
+    <Compile Include="CSS\Communication\CommunicationChannelSettings.cs" />
+    <Compile Include="CSS\Communication\CommunicationErrorCode.cs" />
+    <Compile Include="CSS\Communication\CommunicationPacketSetting.cs" />
+    <Compile Include="CSS\Communication\CommunicationPacketSettings.cs" />
+    <Compile Include="CSS\Communication\IServerCacheResultSink.cs" />
+    <Compile Include="CSS\Communication\PacketHandler\ICommunicationPacketHandler.cs" />
+    <Compile Include="CSS\Communication\Packet\CommunicationPacketAttribute.cs" />
+    <Compile Include="CSS\Communication\Packet\CommunicationPacketBase.cs" />
+    <Compile Include="CSS\Communication\Packet\ExceptionPacket.cs" />
+    <Compile Include="CSS\Communication\Packet\PacketSerialSinkInfo.cs" />
+    <Compile Include="CSS\Communication\Packet\SerialSinkInfo.cs" />
+    <Compile Include="CSS\Communication\ServerCacheResultManager.cs" />
+    <Compile Include="CSS\Communication\ServerCommunication.cs" />
+    <Compile Include="CSS\Communication\ServerCommunicationClientEventSink.cs" />
+    <Compile Include="CSS\CSSConfig.cs" />
+    <Compile Include="CSS\PacketHandling\ExceptionPacketHandler.cs" />
+    <Compile Include="CSS\Packet\LoginPacket.cs" />
+    <Compile Include="CSS\Packet\PacketBase.cs" />
+    <Compile Include="CSS\Packet\PacketFieldAttribute.cs" />
+    <Compile Include="CSS\Remoting\AfterRemoteCallEventHandler.cs" />
+    <Compile Include="CSS\Remoting\BeforeRemoteCallEventHandler.cs" />
+    <Compile Include="CSS\Remoting\BoradcastRemoteClassAssemblyAttribute.cs" />
+    <Compile Include="CSS\Remoting\BroadcastRemotingClassAttribute.cs" />
+    <Compile Include="CSS\Remoting\BroadcastRemotingClient.cs" />
+    <Compile Include="CSS\Remoting\BroadcastRemotingMethodAttribute.cs" />
+    <Compile Include="CSS\Remoting\BroadcastRemotingPacket.cs" />
+    <Compile Include="CSS\Remoting\BroadcastRemotingServer.cs" />
+    <Compile Include="CSS\Remoting\Remote2ndClassAssemblyAttribute.cs" />
+    <Compile Include="CSS\Remoting\RemoteClassAssemblyAttribute.cs" />
+    <Compile Include="CSS\Remoting\RemotingClassAttribute.cs" />
+    <Compile Include="CSS\Remoting\RemotingClient.cs" />
+    <Compile Include="CSS\Remoting\RemotingClient2nd.cs" />
+    <Compile Include="CSS\Remoting\RemotingClientHandler.cs" />
+    <Compile Include="CSS\Remoting\RemotingMethodAttribute.cs" />
+    <Compile Include="CSS\Remoting\RemotingPacket.cs" />
+    <Compile Include="CSS\Remoting\RemotingPacket2nd.cs" />
+    <Compile Include="CSS\Remoting\RemotingPacketServer.cs" />
+    <Compile Include="CSS\Remoting\RemotingPacketServer2nd.cs" />
+    <Compile Include="CSS\Remoting\RemotingServerHandler.cs" />
+    <Compile Include="CSS\Remoting\UnRemotingAttribute.cs" />
+    <Compile Include="CSS\SerialSink\HashSerialSink.cs" />
+    <Compile Include="CSS\SerialSink\ISerialSink.cs" />
+    <Compile Include="CSS\SerialSink\SecurityLevel.cs" />
+    <Compile Include="CSS\SerialSink\SecuritySerialSink.cs" />
+    <Compile Include="CSS\SerialSink\SecuritySerialSinkException.cs" />
+    <Compile Include="CSS\SerialSink\SerialSinkAttribute.cs" />
+    <Compile Include="CSS\SerialSink\SerialSinkConfig.cs" />
+    <Compile Include="CSS\SerialSink\UserIDSink.cs" />
+    <Compile Include="CSS\SerialSink\ZipSerialSink.cs" />
+    <Compile Include="CSS\Server\LoginHandlersConfig.cs" />
+    <Compile Include="CSS\Server\LoginPacketHandler.cs" />
+    <Compile Include="CSS\Server\OnUserLoginFinishHandler.cs" />
+    <Compile Include="CSS\Server\OnUserLogoutFinishHandler.cs" />
+    <Compile Include="DataAdapterHelper.cs" />
+    <Compile Include="DataRowBinder.cs" />
+    <Compile Include="DataSetUtility.cs" />
+    <Compile Include="DataTableInfo.cs" />
+    <Compile Include="DBHelper\BuildSQLVersion.cs" />
+    <Compile Include="DBHelper\DataType.cs" />
+    <Compile Include="DBHelper\DBBuilder.cs" />
+    <Compile Include="DBHelper\DBHandler.cs" />
+    <Compile Include="DBHelper\DBType.cs" />
+    <Compile Include="DBHelper\SQLBuilderManager.cs" />
+    <Compile Include="DBType.cs" />
+    <Compile Include="EmptyEventHandler.cs" />
+    <Compile Include="ErrorHelper.cs" />
+    <Compile Include="ExceptionHandling\ExceptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExceptionHandling\ExceptionHelper.cs" />
+    <Compile Include="Exchange\Channels\ExchangeChannelAttribute.cs" />
+    <Compile Include="Exchange\Channels\IExchangeReaderChannel.cs" />
+    <Compile Include="Exchange\Channels\IExchangeWriterChannel.cs" />
+    <Compile Include="Exchange\ConvertHandler.cs" />
+    <Compile Include="Exchange\ConvertManager.cs" />
+    <Compile Include="Exchange\ExchangeErrorHelper.cs" />
+    <Compile Include="Exchange\ExchangeManager.cs" />
+    <Compile Include="Font\EUDCUtility.cs" />
+    <Compile Include="Font\PrivateFontUtility.cs" />
+    <Compile Include="Hotkey\HotkeyManager.cs" />
+    <Compile Include="IBinderHelper.cs" />
+    <Compile Include="Identity\AllPassPermissionAttribute.cs" />
+    <Compile Include="Identity\IAuthUser.cs" />
+    <Compile Include="Identity\IP2PUser.cs" />
+    <Compile Include="Identity\IPermissionAttribute.cs" />
+    <Compile Include="Identity\IUser.cs" />
+    <Compile Include="Identity\OnePassPermissionAttribute.cs" />
+    <Compile Include="Identity\PermissionAttribute.cs" />
+    <Compile Include="Identity\PermissionCheckType.cs" />
+    <Compile Include="Identity\PlatformLoadUserHandler.cs" />
+    <Compile Include="Identity\PlatformModifyUserHandler.cs" />
+    <Compile Include="Identity\PlatformRemoveUserHandler.cs" />
+    <Compile Include="Identity\PlatformUserActiveTimeChangedHandler.cs" />
+    <Compile Include="Identity\PlatformUserBanChangedHandler.cs" />
+    <Compile Include="Identity\UserManager.cs" />
+    <Compile Include="Image\ImageTools.cs" />
+    <Compile Include="IO\FileUtility.cs" />
+    <Compile Include="IO\IDEUtility.cs" />
+    <Compile Include="IO\MemoryStream.cs" />
+    <Compile Include="IO\MemoryStreamData.cs" />
+    <Compile Include="IO\PathUtility.cs" />
+    <Compile Include="LiveUpdate\AddNoteCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\AddNoteCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\CheckFileCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\CheckFileCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\CleanUpdateFilesCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\CleanUpdateFilesCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\CreateSettingNameCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\CreateSettingNameCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\DeleteSettingNameCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\DeleteSettingNameCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetFileCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetFileCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetFileListCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetFileListCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetFileListNewCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetFileListNewCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetFileListTypedCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetFileListTypedCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetFullFileListCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetFullFileListCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetNoteCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetNoteCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetNoteListCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetNoteListCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\GetSettingNamesCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\GetSettingNamesCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\LiveUpdateControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LiveUpdate\LiveUpdateDownloadHandler.cs" />
+    <Compile Include="LiveUpdate\LiveUpdateEventHandler.cs" />
+    <Compile Include="LiveUpdate\LiveUpdateHandler.cs" />
+    <Compile Include="LiveUpdate\LiveUpdateHelper.cs" />
+    <Compile Include="LiveUpdate\LiveUpdatePerformUpdateHandler.cs" />
+    <Compile Include="LiveUpdate\LiveupdateService.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="LiveUpdate\LiveUpdateWebServiceHelper.cs" />
+    <Compile Include="LiveUpdate\LoginCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\LoginCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\RemoveFileByIdCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\RemoveFileByIdCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\UpdateFileCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\UpdateFileCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\UpdateFileContentCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\UpdateFileContentCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\UpdateSettingNameCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\UpdateSettingNameCompletedEventHandler.cs" />
+    <Compile Include="LiveUpdate\UploadFileCompletedEventArgs.cs" />
+    <Compile Include="LiveUpdate\UploadFileCompletedEventHandler.cs" />
+    <Compile Include="LogLevel.cs" />
+    <Compile Include="Log\DBHandlerLogPassAttribute.cs" />
+    <Compile Include="Log\DBHandlerLogSink.cs" />
+    <Compile Include="Log\FileLogBase.cs" />
+    <Compile Include="Log\FileLogSink.cs" />
+    <Compile Include="Log\LiveUpdateLogSink.cs" />
+    <Compile Include="Log\LogConfig.cs" />
+    <Compile Include="Log\LoginLogSink.cs" />
+    <Compile Include="Log\LogLevel.cs" />
+    <Compile Include="Log\OperationLogSink.cs" />
+    <Compile Include="Log\PlatformLogSink.cs" />
+    <Compile Include="Message\IMessageProcessor.cs" />
+    <Compile Include="Message\IMessageSaver.cs" />
+    <Compile Include="Message\Message.cs" />
+    <Compile Include="Message\MessageControler.cs" />
+    <Compile Include="Module\AssemblyModuleAttribute.cs" />
+    <Compile Include="Module\IPlatformModule.cs" />
+    <Compile Include="Module\IPlatformModule2.cs" />
+    <Compile Include="Module\ModuleAssemblies.cs" />
+    <Compile Include="Module\ModuleConfig.cs" />
+    <Compile Include="Module\ModuleData.cs" />
+    <Compile Include="Module\PlatformAssemblyLoadedHandler.cs" />
+    <Compile Include="Module\PlatformAssemblyLoadingHandler.cs" />
+    <Compile Include="Module\PlatformModuleLoadedHandler.cs" />
+    <Compile Include="Module\PlatformModuleLoader.cs" />
+    <Compile Include="Module\PlatformModuleLoadingHandler.cs" />
+    <Compile Include="Module\PlatformModuleSectionHandler.cs" />
+    <Compile Include="Monitor\MemoryMonitor.cs" />
+    <Compile Include="MSSQLUtility.cs" />
+    <Compile Include="MultiMedia\Capture.cs" />
+    <Compile Include="MultiTextWriter.cs" />
+    <Compile Include="Net\HttpGetFileEventHandler.cs" />
+    <Compile Include="Net\HttpInformation.cs" />
+    <Compile Include="Net\HttpUtility.cs" />
+    <Compile Include="Net\IPUtility.cs" />
+    <Compile Include="Net\Socket\Spy.cs" />
+    <Compile Include="Net\Socket\TcpListener.cs" />
+    <Compile Include="Net\Socket\TcpListenerAcceptCallBack.cs" />
+    <Compile Include="Net\WebService\WebServiceInfo.cs" />
+    <Compile Include="Net\WebService\WebServiceMaker.cs" />
+    <Compile Include="PlatformConfig.cs" />
+    <Compile Include="PlatformInitialize.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReplaceBase.cs" />
+    <Compile Include="ReplaceColumn.cs" />
+    <Compile Include="ReplaceColumnEx.cs" />
+    <Compile Include="ReplaceCustom.cs" />
+    <Compile Include="ReplaceHelper.cs" />
+    <Compile Include="ReplaceLength.cs" />
+    <Compile Include="Resources\ResourceHelper.cs" />
+    <Compile Include="Resources\ResourceHolder.cs" />
+    <Compile Include="Resources\ResourceUtility.cs" />
+    <Compile Include="Resources\SystemIconHelper.cs" />
+    <Compile Include="Security\HashType.cs" />
+    <Compile Include="Security\HashUtility.cs" />
+    <Compile Include="Security\RsaUtility.cs" />
+    <Compile Include="Security\Security.cs" />
+    <Compile Include="Security\SecurityConfig.cs" />
+    <Compile Include="Security\SymmetricType.cs" />
+    <Compile Include="Security\SymmetricUtility.cs" />
+    <Compile Include="Serialization\DeserialHelper.cs" />
+    <Compile Include="Serialization\SerialDataAttribute.cs" />
+    <Compile Include="Serialization\SerialDataHelper.cs" />
+    <Compile Include="Serialization\SerialFormatHelper.cs" />
+    <Compile Include="Serialization\SerialHelper.cs" />
+    <Compile Include="SerialPort\SerialPortController.cs" />
+    <Compile Include="SerialPort\SerialSocket.cs" />
+    <Compile Include="Session\ISessionChannel.cs" />
+    <Compile Include="Session\SessionManager.cs" />
+    <Compile Include="SQLUtility.cs" />
+    <Compile Include="StateKeeper\IStateChangedSink.cs" />
+    <Compile Include="StateKeeper\IStateKeeperItem.cs" />
+    <Compile Include="StateKeeper\OnStateChangedEventHandler.cs" />
+    <Compile Include="StateKeeper\StateKeeperHelper.cs" />
+    <Compile Include="Task\AutoTaskItemBase.cs" />
+    <Compile Include="Task\AutoTaskManager.cs" />
+    <Compile Include="Task\AutoTaskPriority.cs" />
+    <Compile Include="Task\AutoTaskSinkAttribute.cs" />
+    <Compile Include="Task\AutoTaskState.cs" />
+    <Compile Include="Task\IAutoTaskSink.cs" />
+    <Compile Include="Task\ITaskSink.cs" />
+    <Compile Include="Task\IWorkFlowTaskSink.cs" />
+    <Compile Include="Task\QueueTask\IQueueTaskSink.cs" />
+    <Compile Include="Task\QueueTask\QueueTaskManager.cs" />
+    <Compile Include="Task\QueueTask\QueueTaskSinkAttribute.cs" />
+    <Compile Include="Task\QueueTask\QueueTaskSinkHelper.cs" />
+    <Compile Include="Task\TaskConfig.cs" />
+    <Compile Include="Task\TaskManager.cs" />
+    <Compile Include="Task\TaskSinkAttribute.cs" />
+    <Compile Include="Task\WorkFlowTaskManager.cs" />
+    <Compile Include="Task\WorkFlowTsakState.cs" />
+    <Compile Include="Threading\ICorThreadpool.cs" />
+    <Compile Include="Threading\ThreadingConfig.cs" />
+    <Compile Include="Threading\ThreadPool.cs" />
+    <Compile Include="Threading\ThreadPoolHelper.cs" />
+    <Compile Include="Threading\ThreadPoolManager.cs" />
+    <Compile Include="Threading\ThreadSlotManager.cs" />
+    <Compile Include="Tracing\ConsoleListener.cs" />
+    <Compile Include="Tracing\DebugHelper.cs" />
+    <Compile Include="Tracing\DebugShow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tracing\TraceHelper.cs" />
+    <Compile Include="Tracing\TracingMessageType.cs" />
+    <Compile Include="UI\AssembliesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ImageDiaplayControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\ImageDiaplayForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Utils\WindowContainerControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UI\WindowTools.cs" />
+    <Compile Include="Utils\AssemblyBuilderHelper.cs" />
+    <Compile Include="Utils\ByteUtility.cs" />
+    <Compile Include="Utils\CompareUtility.cs" />
+    <Compile Include="Utils\DataSetUtility.cs" />
+    <Compile Include="Utils\DateTimeUtility.cs" />
+    <Compile Include="Utils\DelayUtility.cs" />
+    <Compile Include="Utils\EncodingUtility.cs" />
+    <Compile Include="Utils\EventProxyBuilder.cs" />
+    <Compile Include="Utils\EventProxySink.cs" />
+    <Compile Include="Utils\FileBuffer.cs" />
+    <Compile Include="Utils\FillConvertHandler.cs" />
+    <Compile Include="Utils\FillFieldAttribute.cs" />
+    <Compile Include="Utils\FillFromFieldAttribute.cs" />
+    <Compile Include="Utils\FillMapInfo.cs" />
+    <Compile Include="Utils\FillUtility.cs" />
+    <Compile Include="Utils\GetFileDataEventHandler.cs" />
+    <Compile Include="Utils\GuidUtility.cs" />
+    <Compile Include="Utils\MathUtility.cs" />
+    <Compile Include="Utils\ObjectUtility.cs" />
+    <Compile Include="Utils\PictureBoxContexMenu.cs" />
+    <Compile Include="Utils\PictureBoxControl.cs" />
+    <Compile Include="Utils\PictureBoxControlDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utils\PlatformDateTime.cs" />
+    <Compile Include="Utils\PlatformDateTimeEx.cs" />
+    <Compile Include="Utils\PlatformTimeout.cs" />
+    <Compile Include="Utils\ResourceUtility.cs" />
+    <Compile Include="Utils\ServiceUtility.cs" />
+    <Compile Include="Utils\StackTracePassAttribute.cs" />
+    <Compile Include="Utils\StackTraceUtility.cs" />
+    <Compile Include="Utils\StringUtility.cs" />
+    <Compile Include="Utils\TextConverter.cs" />
+    <Compile Include="Utils\TextConverterMethodAttribute.cs" />
+    <Compile Include="Utils\TextConvertHandler.cs" />
+    <Compile Include="Utils\TypeUtility.cs" />
+    <Compile Include="Utils\WaitUtility.cs" />
+    <Compile Include="Version.cs" />
+    <Compile Include="Win32API\Kernel32.cs" />
+    <Compile Include="Win32API\User32.cs" />
+    <Compile Include="Win32API\WM_MESSAGE.cs" />
+    <Compile Include="Workflow\Definition\Flow.cs" />
+    <Compile Include="Workflow\Definition\FlowNode.cs" />
+    <Compile Include="Workflow\Definition\FlowNodeRelation.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CSS.Communication.CommunicationErrorCode.config" />
+    <EmbeddedResource Include="CSS.CSS.config" />
+    <EmbeddedResource Include="CSS.SerialSink.SerialSink.config" />
+    <EmbeddedResource Include="CSS.Server.LoginHandlers.config" />
+    <EmbeddedResource Include="Exchange.ExchangeErrorCode.config" />
+    <EmbeddedResource Include="IO.IO.config" />
+    <EmbeddedResource Include="Log.Log.config" />
+    <EmbeddedResource Include="Platform.config" />
+    <EmbeddedResource Include="Security.Security.config" />
+    <EmbeddedResource Include="Task.Task.config" />
+    <EmbeddedResource Include="Threading.Threading.config" />
+    <None Include="packages.config" />
+    <None Include="unicloud-key.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Platform.LiveUpdate.LiveUpdate.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharpZipLib\ICSharpCode.SharpZipLib.csproj">
+      <Project>{0AAD2BF5-F6C9-4180-9C50-9200726052DD}</Project>
+      <Name>ICSharpCode.SharpZipLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Data.SQLite.Core.1.0.99.0\build\net20\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.99.0\build\net20\System.Data.SQLite.Core.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Data.SQLite.Core.1.0.99.0\build\net20\System.Data.SQLite.Core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Data.SQLite.Core.1.0.99.0\build\net20\System.Data.SQLite.Core.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
